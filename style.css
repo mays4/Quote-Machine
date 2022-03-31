@@ -1,0 +1,40 @@
+.con{
+  display: block;
+ 
+  height: 800px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#quote-box{
+  background-color: white;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:40%;
+    border: 3px solid green; 
+    margin-left: 250px;
+    margin-top: 250px;
+
+ 
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none; 
+ 
+}
+.link-text{
+  color:black;
+  text-align: center;
+}
