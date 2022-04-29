@@ -1,34 +1,46 @@
-.con{
-  display: block;
- 
-  height: 800px;
+*{
+  padding: 0;
+  margin: 0;
 }
+
+
 body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  /* margin: auto; */
+  height: 100vh;
+ 
+  
+ 
+
+
 }
 #wrapper{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 }
 .quote-div{
   display: flex;
   /* padding: 10px; */
+  /* justify-content: center; */
+  justify-content: space-between;
 
 
 }
-.createby{
-  margin-left: 70%;
-}
+
 
 .qu{
   display: flex;
+  
 
 
+}
+#quote-text{
+  margin-right: 10px;
 }
 .wr{
   display: flex;
@@ -36,42 +48,61 @@ align-items: center;
 }
 #quote-box{
   background-color: white;
-  position: relative;
+ 
     display: table;
-    text-align: center;
-    /* width: 450px; */
-  padding: 40px 50px;
-    /* justify-content: center;
+    /* text-align: center; */
+    width: 450px;
+     padding: 40px 50px;
+    
     align-items: center;
-    height: 200px; */
-    /* width:60%; */
-    border: 3px solid green;
-    /* padding-left: 20px;  */
-    /* margin-left: 250px;
-    margin-top: 250px; */
+   
+    border: 3px ;
+    border-radius: 20px;
+    
+    
 
  
 }
-.footer{
-  display: flex;
-  justify-content: center;
-  padding-left: 30%;
-
-  align-items: center;
-}
+/* #author{
+ 
+  text-align: right;
+} */
 
 a{
   text-decoration: none; 
  
 }
-.link-text{
-  color:black;
+
+
+#tweet-quote{
   text-align: center;
-  padding: 20px;
+  font-size: 4em;
+  
+  height: 30px;
+  width: 40px;
 }
-#author{
-  color: aqua;
+#tumbler-quote{
+ 
+ 
+  text-align: center;
+  font-size: 4em;
+  
+  height: 30px;
+  width: 40px;
+  
+  
+  
 }
-#text{
-  color: blue;
+#new-quote{
+  margin-bottom: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  
+ 
+}
+  
+.dash{
+  padding-top: 10px;
+ display: flex;
+ justify-content: right;
 }

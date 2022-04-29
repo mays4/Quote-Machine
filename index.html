@@ -20,40 +20,48 @@
  
   
 </head>
-<body>
+<body style=" background-color: antiquewhite;">
   <script src="//cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<div class="container">
+
 <div id ="wrapper">
   
-  <wrapper id="quote-box">
+  <div id="quote-box">
     <div class="card">
-      <div class="card-body">
         <div class="qu">
-        <i class="fa-solid fa fa-quote-left"></i>  
+          <div id="quote-text">
+        <i  class="fa-solid fa fa-quote-left"> </i>  
+      </div>
         <div id="text">  
+             Too many of us are not living our dreams because we are living our fears.
         </div>
       </div>
-      <div id="author">-</div>
+      <div class="dash"><span>-</span> <div id="author">   Les Brown </div></div>
+      
         <div class="quote-div">
-          
-            <a href="#" class="btn btn-block" id="tweet-quote" target="_blank" >
-              <i class="  fa-brands fa fa-twitter-square"></i>
+            <a href="#"  id="tweet-quote" target="_blank" >
+              <i id="tweet" class="  fa-brands fa fa-twitter-square"></i>
             </a> 
-               <a target="_blank">
-                 <i class="fa-brands fa fa-tumblr-square"></i>
-                </a>
-          <a role="button" id="new-quote"  class="btn btn-lg btn-success">New Quete
+        
+    
+           
+              <a target="_blank" id="tumbler-quote">
+                <i id="tumblr" class="fa-brands fa fa-tumblr-square"></i>
+               </a>
+              
+            
+               
+              <a role="button" id="new-quote"  class="btn btn-lg btn-primary">New Quete
             </a>
        
           </div>
-      </div>
+      
     </div>
-    </wrapper>
-    <div class="footer"><p>
-   <a href="https://codepen.io/hezag/" class="link-text">by hezag</a> </p>
-    </div> 
+    </div>
+   
+
+    </div>  
 </div>
-</div>
+
 </body>
 </html>
