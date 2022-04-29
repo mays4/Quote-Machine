@@ -9,24 +9,54 @@ body{
   align-items: center;
   margin: auto;
 }
+#wrapper{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.quote-div{
+  display: flex;
+  /* padding: 10px; */
 
+
+}
+.createby{
+  margin-left: 70%;
+}
+
+.qu{
+  display: flex;
+
+
+}
+.wr{
+  display: flex;
+  flex-direction: column;
+}
 #quote-box{
   background-color: white;
-  
-    display: flex;
-    justify-content: center;
+  position: relative;
+    display: table;
+    text-align: center;
+    /* width: 450px; */
+  padding: 40px 50px;
+    /* justify-content: center;
     align-items: center;
-    height: 200px;
-    width:40%;
-    border: 3px solid green; 
-    margin-left: 250px;
-    margin-top: 250px;
+    height: 200px; */
+    /* width:60%; */
+    border: 3px solid green;
+    /* padding-left: 20px;  */
+    /* margin-left: 250px;
+    margin-top: 250px; */
 
  
 }
 .footer{
   display: flex;
   justify-content: center;
+  padding-left: 30%;
+
   align-items: center;
 }
 
@@ -37,4 +67,11 @@ a{
 .link-text{
   color:black;
   text-align: center;
+  padding: 20px;
+}
+#author{
+  color: aqua;
+}
+#text{
+  color: blue;
 }
